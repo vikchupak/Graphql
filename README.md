@@ -33,3 +33,18 @@ Backend systems (REST APIs, DBs, microservices)
 ---
 
 👉 So yes: Apollo Server is a **bridge between frontend and backend**, exposing a clean GraphQL API while hiding the complexity of your underlying systems.
+
+# Parallels with REST
+
+- Graphql has 2 real "REST" endpoints
+           - GET "/graphql" => GraphQL Playground (includes docs, schemas)
+           - POST "/graphql" => query processing
+- Graphql "query/mutation" - **WHAT** (like REST endpoint)
+  - Query => like REST GET endpoint
+  - Mutation -> like REST POST/PUT/PATCH/DELETE endpoint
+- Graphql "resolver" - **HOW** (like REST controller)
+- Graphql "subscription" => like REST Web Sockets
+
+```txt
+resolver -> service -> repository -> model
+```
