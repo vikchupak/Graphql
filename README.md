@@ -37,8 +37,8 @@ Backend systems (REST APIs, DBs, microservices)
 # Parallels with REST
 
 - Graphql has 2 real "REST" endpoints
-           - GET "/graphql" => GraphQL Playground (includes docs, schemas)
-           - POST "/graphql" => query processing
+  - GET "/graphql" => GraphQL Playground (includes docs, schemas)
+  - POST "/graphql" => query processing
 - Graphql "query/mutation" - **WHAT** (like REST endpoint)
   - Query => like REST GET endpoint
   - Mutation -> like REST POST/PUT/PATCH/DELETE endpoint
