@@ -41,7 +41,7 @@ Backend systems (REST APIs, DBs, microservices)
   - POST "/graphql" => query processing
 - Graphql "query/mutation" - **WHAT** (like REST endpoint)
   - Query => like REST GET endpoint
-  - Mutation -> like REST POST/PUT/PATCH/DELETE endpoint
+  - Mutation => like REST POST/PUT/PATCH/DELETE endpoint
 - Graphql "resolver" - **HOW** (like REST controller)
 - Graphql "subscription" => like REST Web Sockets
 
