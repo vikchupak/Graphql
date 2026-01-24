@@ -45,6 +45,12 @@ Backend systems (REST APIs, DBs, microservices)
 - Graphql "resolver" - **HOW** (like REST controller)
 - Graphql "subscription" => like REST Web Sockets
 
+Graphql
 ```txt
-query -> resolver -> service -> repository -> model
+query -> POST /graphql endpoint -> resolver -> service -> repository -> model
+```
+
+REST
+```txt
+request -> endpoint -> controller -> service -> repository -> model
 ```
