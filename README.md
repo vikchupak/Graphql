@@ -46,5 +46,5 @@ Backend systems (REST APIs, DBs, microservices)
 - Graphql "subscription" => like REST Web Sockets
 
 ```txt
-resolver -> service -> repository -> model
+query -> resolver -> service -> repository -> model
 ```
